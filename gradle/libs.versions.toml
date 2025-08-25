@@ -7,7 +7,6 @@ kotlinx-io = "0.8.0"
 coroutines = "1.10.2"
 atomicfu = "0.29.0"
 serialization = "1.9.0"
-binaryCompatibilityValidator = "0.18.0"
 dokka = "2.0.0"
 kover = "0.9.1"
 kotlinter = "5.1.1"
@@ -16,7 +15,7 @@ kotlinx-browser = "0.3"
 # Used for test server in buildSrc
 ktor = "3.2.0-eap-1336"
 
-netty = "4.2.2.Final"
+netty = "4.2.4.Final"
 netty-tcnative = "2.0.72.Final"
 
 jetty = "9.4.57.v20241219"
@@ -65,7 +64,7 @@ jte = "3.2.1"
 javax-servlet = "4.0.1"
 jakarta-servlet = "5.0.0"
 
-ws = "8.18.0"
+ws = "8.18.3"
 xmlutil = "0.91.1"
 yamlkt = "0.13.0"
 kaml = "0.77.1"
@@ -74,7 +73,7 @@ swagger-codegen = "3.0.71"
 swagger-codegen-generators = "1.0.57"
 swagger-parser = "2.1.30"
 
-puppeteer = "21.5.0"
+puppeteer = "24.16.1"
 tomlj = "1.1.1"
 
 zstd-jni = "1.5.7-3"
@@ -132,8 +131,6 @@ kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.
 kotlinx-io-core = { module = "org.jetbrains.kotlinx:kotlinx-io-core", version.ref = "kotlinx-io" }
 
 kotlinx-browser = { module = "org.jetbrains.kotlinx:kotlinx-browser", version.ref = "kotlinx-browser" }
-
-kotlinx-binaryCompatibilityValidator = { module = "org.jetbrains.kotlinx:binary-compatibility-validator", version.ref = "binaryCompatibilityValidator" }
 
 dokka-gradlePlugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
 dokka-plugin-versioning = { module = "org.jetbrains.dokka:versioning-plugin", version.ref = "dokka" }
@@ -243,7 +240,6 @@ zstd-jni = { module = "com.github.luben:zstd-jni", version.ref = "zstd-jni" }
 
 [plugins]
 
-binaryCompatibilityValidator = { id = "org.jetbrains.kotlinx.binary-compatibility-validator", version.ref = "binaryCompatibilityValidator" }
 kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
 
 doctor = { id = "com.osacky.doctor", version.ref = "gradleDoctor" }
